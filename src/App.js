@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Pages/Navbar';
+import Country from './Pages/Country';
+import MobileNav from './Pages/MobileNav';
 
 function App() {
+  const closeBackdrop = () => {
+    const backdrop = document.querySelector('.backdrop');
+    const mobileNav = document.querySelector('.mobile-nav');
+    mobileNav.style.display = "none";
+    backdrop.style.display = "none";
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="backdrop" onClick={closeBackdrop}></div>
+      <MobileNav />
+      <Country />
+      <Navbar />
+    </>
   );
 }
 
