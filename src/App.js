@@ -3,6 +3,11 @@ import './App.css';
 import Navbar from './Pages/Navbar';
 import Country from './Pages/Country';
 import MobileNav from './Pages/MobileNav';
+import Headline from './Pages/Headline';
+import RightContainer from './Pages/RightContainer';
+import BreakingNews from './Pages/BreakingNews';
+import Suggestions from './Pages/Suggestions';
+import Footer from './Pages/Footer';
 
 function App() {
   const closeBackdrop = () => {
@@ -18,6 +23,19 @@ function App() {
       <MobileNav />
       <Country />
       <Navbar />
+      <div className="contentbody">
+        <Headline />
+        <RightContainer />
+      </div>
+      <section className="middle">
+        <BreakingNews />
+      </section>
+      {/* <section>
+        <Suggestions />
+      </section> */}
+      <section>
+        <Footer />
+      </section>
     </>
   );
 }

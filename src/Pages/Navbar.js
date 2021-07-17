@@ -10,6 +10,10 @@ const Navbar = () => {
         mobileNav.style.display = 'block';
     }
 
+    const searchbBarWidth = () => {
+        // select the seacrh bar 
+        const searchbBar = document.querySelector('.nav-item .fas');
+    }
 
     return (
         <div className="navbar">
@@ -18,15 +22,17 @@ const Navbar = () => {
             </div>
             <nav>
                 <ul className="nav-item">
-                    <li className="nav-items">
-                        {/* <input type="text" placeholder="search.." /> */}
-                        <i class="fas fa-search"></i>
+                    <li className="nav-items" onClick={searchbBarWidth}>
+                        <div className="nav-input__cover">
+                            {/* <input type="text" placeholder="search.." /> */}
+                            <i class="fas fa-search"></i>
+                        </div>
                     </li>
                     <li className="nav-items">
                         <i class="far fa-bell"></i>
                     </li>
                     <li className="nav-items" onClick={mobileView}>
-                        <i class="fas fa-bars" ></i>
+                        <i class="fas fa-bars bar" ></i>
                     </li>
                 </ul>
             </nav>

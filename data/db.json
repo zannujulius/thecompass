@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "title": "another post",
+            "body": "lorem210e",
+            "author": "mark",
+            "id": 3
+        },
+        {
+            "title": "AI",
+            "body": "Artificial Intelligence",
+            "author": "mark",
+            "id": 4
+        },
+        {
+            "title": "jamesd ",
+            "body": "svjsvs jdl sl s sc s",
+            "author": "mark",
+            "id": 5
+        },
+        {
+            "title": "mike",
+            "body": "gkdjryfckgryfhj,hv",
+            "author": "mark",
+            "id": 6
+        }
+    ]
+}

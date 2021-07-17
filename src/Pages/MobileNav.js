@@ -3,7 +3,7 @@ import profileImage from '../assets/images/profileimg.jpg'
 
 const MobileNav = () => {
     return (
-        <div className="mobile-nav" style={{"display": "none"}}>
+        <div className="mobile-nav" style={{ "display": "none" }}>
             <div className="mobile-nav-profile">
                 <div className="mobile-nav__img">
                     {/* <img src={profileImage} className="profileimg" alt="profile images" /> */}
@@ -27,7 +27,7 @@ const MobileNav = () => {
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
                         Tags
-                    </a>  
+                    </a>
                 </li>
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
@@ -36,17 +36,17 @@ const MobileNav = () => {
                 </li>
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
-                    Become a member
+                        Become a journalist
                     </a>
                 </li>
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
-                        Write your Article
+                        Publish your Article
                     </a>
 
                 </li>
             </ul>
-            <hr/>
+            <hr />
 
             <ul className="mobile-nav__item">
                 <li className="mobile-nav__items">
@@ -57,7 +57,7 @@ const MobileNav = () => {
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
                         Support
-                    </a>  
+                    </a>
                 </li>
                 <li className="mobile-nav__items">
                     <a href="" className="mobile-nav__link">
