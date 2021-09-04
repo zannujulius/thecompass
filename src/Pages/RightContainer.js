@@ -4,9 +4,10 @@ import Thoughts from "./Thoughts";
 const RightContainer = () => {
     return (
         <>
-            <div className="rightcontainer">
+            <div className="">
+            {/* rightcontainer */}
                 <Category />
-                <Thoughts />
+                <Thoughts/>
             </div>
         </>
     );

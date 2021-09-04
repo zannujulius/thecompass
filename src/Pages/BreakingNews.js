@@ -37,7 +37,8 @@ const BreakingNews = () => {
                         </div>
                     </div>
 
-                </div><div className="bn-details">
+                </div>
+                <div className="bn-details">
                     <div className="bn-cover">
                         <div className="bn-img__cover">
                             <img src={bnimg1} className="bn-img" alt="image" />

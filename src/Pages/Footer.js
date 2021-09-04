@@ -67,7 +67,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    {/* <div className="newsletter">
+                    <div className="newsletter">
                         <div className="newsletter-text">
                             Enter your email address to receive daily news
                         </div>
@@ -87,7 +87,7 @@ const Footer = () => {
                                 <button className="newsletter-btn">submit</button>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <hr />
                     <div className="country-container">
                         <div className="country-items first-item">

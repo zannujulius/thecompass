@@ -1,20 +1,28 @@
-import img2 from '../assets/images/img2.jpg'
-// https://images.unsplash.com/photo-1419848449479-6c8a7d8d62c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80
+import img2 from '../assets/images/img2.jpg';
+import { useEffect, useState } from 'react';
+import axios from '../utils/axios';
+// import useFetch from '../useFetch';
 
 const Headline = () => {
+
+    // const {error, data: articles, isPending } = useFetch('http://localhost:5000');
+    // const data = articles.articles;
+    const [error, setState] = useState(true);
+    const [isPending, setisPending] = useState(true) 
+
     return (
         <>
+
             <div className="headline">
                 <div className="headline-title__content">
                     <div className="headline-title">
-                        Headlines
+                    
                     </div>
                     <div className="headline-status">
                         Live
                     </div>
                 </div>
 
-                {/* headline - 1 */}
                 <div className="headline-holder">
 
                     <div className="headline-top">
@@ -25,6 +33,7 @@ const Headline = () => {
                             James Krivaj
                         </div>
                     </div>
+
                     <a href="#" className="headline-article">
                         <div className="headline-content">
                             <div className="headline-header">

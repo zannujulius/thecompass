@@ -17,7 +17,7 @@ const Thoughts = () => {
             <div className="thoughts-title">
                 Thoughts
             </div>
-            <hr />
+            {/* <hr /> */}
             <div className="thoughts-content">
                 <div className="thoughts-details">
                     <div className="thoughts-img" style={imgStyle}>
